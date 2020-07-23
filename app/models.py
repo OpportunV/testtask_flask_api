@@ -14,4 +14,4 @@ class Task(db.Model):
         return False
     
     def __repr__(self):
-        return f'Task<{self.id_=}, {self.url=}, {self.status=}, {self.filename}>'
+        return f'Task<{self.id_=}, {self.url=}, {self.status=}, {self.filename=}>'
